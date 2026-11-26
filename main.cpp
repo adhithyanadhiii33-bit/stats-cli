@@ -27,5 +27,6 @@ int main() {
     run_case("Odd + negatives", {-10.0, -3.5, -20.0});
     run_case("Even + duplicates", {4.0, 1.0, 2.0, 2.0});
     run_case("Even + mixed + duplicates", {-5.0, 3.0, -5.0, 10.0});
+    run_case("Single element", {42.0});
     return 0;
 }
