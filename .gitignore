@@ -1,0 +1,8 @@
+# Compiled object files
+*.o
+
+# Compiled executable
+stats_app
+
+# CMake build folder (we will use this on Day 6)
+build/
