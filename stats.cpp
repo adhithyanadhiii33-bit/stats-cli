@@ -70,4 +70,11 @@ std::optional<double> max_val(const std::vector<double>& data) {
     return best;
 }
 
+std::optional<double> range(const std::vector<double>& data) {
+    if (data.empty()) {
+        return std::nullopt;
+    }
+    return *max_val(data) - *min_val(data);
+}
+
 }  // namespace stats

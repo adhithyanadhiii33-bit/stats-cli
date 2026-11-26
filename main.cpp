@@ -20,6 +20,7 @@ static void run_case(const std::string& name, const std::vector<double>& data) {
     print_opt("median", stats::median(data));
     print_opt("min", stats::min_val(data));
     print_opt("max", stats::max_val(data));
+    print_opt("range", stats::range(data));
 }
 
 int main() {
