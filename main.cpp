@@ -10,7 +10,7 @@ static void print_opt(const std::string& label, std::optional<double> val) {
     if (val.has_value()) {
         std::cout << *val << '\n';
     } else {
-        std::cout << "empty (nullopt)\n";
+        std::cout << "none\n";
     }
 }
 
