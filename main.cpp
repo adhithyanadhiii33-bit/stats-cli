@@ -24,8 +24,6 @@ static void run_case(const std::string& name, const std::vector<double>& data) {
 }
 
 int main() {
-    
-    std::cout << "DEBUG: testing\n";
     run_case("Empty input", {});
     run_case("Odd + negatives", {-10.0, -3.5, -20.0});
     run_case("Even + duplicates", {4.0, 1.0, 2.0, 2.0});
